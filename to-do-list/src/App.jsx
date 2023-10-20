@@ -13,6 +13,7 @@ export default function App() {
   }
 
   return (
+
     <>
       <h1>Lista de Tarefas</h1>
       <input type="text" onChange={getCaracteres} />
@@ -23,6 +24,7 @@ export default function App() {
         </ul>
         
       )}
+      
       
     </>
     
